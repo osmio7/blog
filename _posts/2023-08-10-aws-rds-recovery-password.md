@@ -6,11 +6,11 @@ excerpt: Método para generar una nueva contraseña para una instancia AWS RDS d
 ---
 Cuando se elige una contraseña maestra generada por aws, al crear una instancia AWS RDS de Mysql solo la muestra una vez al ingresar al panel de configuración de la base de datos.
 
-![alt text](/images/awsrds01.png "Información instancia AWS RDS")
+![alt text](/blog/images/awsrds01.png "Información instancia AWS RDS")
 
 Lo primero sera conectarnos al aws cli o en nuestro caso desde AWS CloudShell.
 
-![alt text](/images/awsrds02.webp "AWS Cloudshell")
+![alt text](/blog/images/awsrds02.webp "AWS Cloudshell")
 
 Para realizar este procedimiento es necesario tener el identificado de la base de datos, que el nombre con el que creamos nuestra instancia de AWS RDS.
 
