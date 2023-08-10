@@ -14,7 +14,7 @@ Lo primero sera conectarnos al aws cli o en nuestro caso desde AWS CloudShell.
 
 Para realizar este procedimiento es necesario tener el identificado de la base de datos, que es el nombre con el que creamos nuestra instancia de AWS RDS.
 
-Para recuperar una contraseña maestra de una instancia de AWS RDS MySQL desde AWS CLI, puede usar el comando rds ```modify-db-instance```. Este comando le permite modificar la configuración de una instancia de RDS, incluida la contraseña maestra.
+Para recuperar una contraseña maestra de una instancia de AWS RDS MySQL desde AWS CLI, puede usar el comando ```rds modify-db-instance```. Este comando le permite modificar la configuración de una instancia de RDS, incluida la contraseña maestra.
 
 Por ejemplo, para modificar la contraseña maestra de una instancia de RDS llamada ```my-db-instance``` a ```my-new-password```, usaría el siguiente comando:
 
